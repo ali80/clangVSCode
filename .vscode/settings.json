@@ -1,0 +1,11 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "clang.executable": "clang",
+  // Compiler options for C (e.g. ["-std=c99"])
+  // "clang.cflags": ["--target=arm-arm-none-eabi","-std=gnu99"],
+  "clang.cflags": ["-Wall", "-Wextra", "-Wpedantic", "-std=gnu99"],
+  
+  // Compiler options for C++ (e.g. ["-std=c++11"])
+  "clang.cxxflags": ["-std=c++11"]
+
+  }
